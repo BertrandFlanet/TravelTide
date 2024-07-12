@@ -14,9 +14,9 @@ These perks helps us develop marketing strategies to better answer users' needs 
 
 ### **2 - Table of Contents**
 
-- [Introduction](#introduction)
-- Usage
-- Data
+- [Introduction](#1_-_introduction)
+- [Usage](#2_-_usage)
+- Data[]
 - Analysis
 - Results
 - Vizualisations
