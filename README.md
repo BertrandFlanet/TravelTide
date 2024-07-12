@@ -23,7 +23,7 @@ These perks helps us develop marketing strategies to better answer users' needs 
 - [7 - Results](#7---results)
 - [8 - Vizualisations](#8---vizualisations)
 - [9 - Conclusions](#9---conclusions)
-- [10 - Aknowledgment](#10---aknowledgment)
+- [10 - Aknowledgment](#10---aknowledgement)
 - [11 - Contact](#11---contact)
 
 
@@ -416,7 +416,7 @@ Seasonality: extremely low count of trip recorded in Autumn.
 It is likely due to the threshold we have set for our segmentation, but nonetheless, the figures look concerningly low. This could be another area for improvement.
 
 
-### **10 - Acknowledgment**
+### **10 - Acknowledgement**
 
 Project made within the frame of Masterschool bootcamp - 07/2024.
 
