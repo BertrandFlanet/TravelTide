@@ -1,4 +1,4 @@
-!(https://drive.google.com/file/d/1KAPQTQxOPgKmgdPhCcyZ-0JzeArO4emD/view?usp=sharing)
+![TravelTide](https://drive.google.com/file/d/1KAPQTQxOPgKmgdPhCcyZ-0JzeArO4emD/view?usp=sharing)
 
 # **TravelTide**
 ##Segmentation_project
