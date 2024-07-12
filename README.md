@@ -346,7 +346,7 @@ The analysis was conducted in the following steps:<br>
 
 ### **7 - Results**
 
-RFM segmentation:<br>
+**RFM segmentation**:<br>
 `'lost'` : 'Conduct surveys or feedback sessions to understand why they stopped purchasing and address any concerns.'<br>
 `'hibernating'` : 'Reach out with personalized win-back offers or discounts to encourage them to return.'<br>
 `'loyal_customers'`: 'Exclusive loyalty rewards such as early access to new products, VIP events, or special discounts.'<br>
@@ -361,31 +361,31 @@ RFM segmentation:<br>
 `'new_customers'`: 'Welcome them with a special discount or promotion for their next purchase.'})
 
 
-Branching segmentation:
+**Branching segmentation**:
 User's behaviour segmentation labels and perks:
 
-Multi Traveler                  - `Lambda Traveller` - Last-Minute Deals.<br>
-Multi Solo Business Short       - `Business expeditive` (short trip) - Partnership discounts for companies that book frequently.<br>
-Multi Solo Business Long        - `Business expansive` (long trip) - Reduced rates for long-term hotel stays.<br>
-Multi Solo Adventurer Short     - `Solo Casual Traveller` (short trip) - Short trip packages for popular destinations.<br>
-Multi Solo Adventurer Long      - `Solo Adventurer` (long trip) - Packages with activities like hiking, diving, and cultural tours.<br>
-Multi Group Family Short        - `Familly Excursion` (familly short trip) - Reduced rates for accommodation, meals, and activities.<br>
-Multi Group Family Long         - `Familly Adventure` (familly long trip) - Packages with activities such as safaris, theme parks, and outdoor adventures.<br>
-Multi Group Separate Short      - `Friend Relaxer` (friends short trip) - Discounts for bookings on short stays.<br>
-Multi Group Separate Long       - `Friend Explorer` (friends long trip) - Reduced rates for extended stays.<br>
-Multi Group Unite Long          - `Intimate Odysseus` (possible couple or close friends long trip) - Packages with activities like wine tastings, city tours, and spa treatments.<br>
-Multi Group Unite Short         - `Intimate Escapade` (possible couple or close friends short trip) - Special rates on short stays.<br>
-inactive hopeful                - `inactive fluid` (users who are active on the website but never complied to a trip) - Personalized travel recommendations and discounts to encourage booking.<br>
-inactive hopeless               - `inactive frozen` (users who are inactive for a long time) - Automatic enrollment in a loyalty program with immediate benefits to encourage re-engagement.<br>
-Unique Traveler                  - `Hapax Traveller` - Offer discounts or rewards for referring friends or family to book trips.<br>
-Unique Solo Adventurer Short     - `Solo Tempted Traveller` (short trip) - Exclusive weekend getaway offers for returning customers.<br>
-Unique Solo Adventurer Long      - `Solo Curious Adventurer` (long trip) - Discounts on long trips to adventurous destinations for repeat customers.<br>
-Unique Group Family Long         - `Familly Mousy Adventure` (familly long trip) - Free baggage.<br>
-Unique Group Separate Long       - `Friend Future Explorer` (friends long trip) - Reduced rates on trips for repeat bookings.<br>
-Unique Group Unite Short         - `Intimate Aluring Escapade` (possible couple or close friends short trip) - Discounts on spa retreats, dinners.<br>
+Multi Traveler                  - `Lambda Traveller` - 'Last-Minute Deals'.<br>
+Multi Solo Business Short       - `Business expeditive` (short trip) - 'Partnership discounts for companies that book frequently.'<br>
+Multi Solo Business Long        - `Business expansive` (long trip) - 'Reduced rates for long-term hotel stays.'<br>
+Multi Solo Adventurer Short     - `Solo Casual Traveller` (short trip) - 'Short trip packages for popular destinations.'<br>
+Multi Solo Adventurer Long      - `Solo Adventurer` (long trip) - 'Packages with activities like hiking, diving, and cultural tours.'<br>
+Multi Group Family Short        - `Familly Excursion` (familly short trip) - 'Reduced rates for accommodation, meals, and activities.'<br>
+Multi Group Family Long         - `Familly Adventure` (familly long trip) - 'Packages with activities such as safaris, theme parks, and outdoor adventures.'<br>
+Multi Group Separate Short      - `Friend Relaxer` (friends short trip) - 'Discounts for bookings on short stays.'<br>
+Multi Group Separate Long       - `Friend Explorer` (friends long trip) - 'Reduced rates for extended stays.'<br>
+Multi Group Unite Long          - `Intimate Odysseus` (possible couple or close friends long trip) - 'Packages with activities like wine tastings, city tours, and spa treatments.'<br>
+Multi Group Unite Short         - `Intimate Escapade` (possible couple or close friends short trip) - 'Special rates on short stays.'<br>
+inactive hopeful                - `inactive fluid` (users who are active on the website but never complied to a trip) - 'Personalized travel recommendations and discounts to encourage booking.'<br>
+inactive hopeless               - `inactive frozen` (users who are inactive for a long time) - 'Automatic enrollment in a loyalty program with immediate benefits to encourage re-engagement.'<br>
+Unique Traveler                  - `Hapax Traveller` - 'Offer discounts or rewards for referring friends or family to book trips.'<br>
+Unique Solo Adventurer Short     - `Solo Tempted Traveller` (short trip) - 'Exclusive weekend getaway offers for returning customers.'<br>
+Unique Solo Adventurer Long      - `Solo Curious Adventurer` (long trip) - 'Discounts on long trips to adventurous destinations for repeat customers.'<br>
+Unique Group Family Long         - `Familly Mousy Adventure` (familly long trip) - 'Free baggage.'<br>
+Unique Group Separate Long       - `Friend Future Explorer` (friends long trip) - 'Reduced rates on trips for repeat bookings.'<br>
+Unique Group Unite Short         - `Intimate Aluring Escapade` (possible couple or close friends short trip) - 'Discounts on spa retreats, dinners.'<br>
 
 
-Clustering with K-Means:<br>
+**Clustering with K-Means**:<br>
 Did provide some results, segmenting users into 3 or 4 groups.<br>
 Although, these weren't deemed substantial to be considered.<br>
 Nota: it will be sensical to run more experiment with this model if time allows.<br>
@@ -422,6 +422,6 @@ Project made within the frame of Masterschool bootcamp - 07/2024.
 
 ### **11 - Contact**
 
-Bertrand Flanet
-E-mail: bertrand.flanet@gmail.com
+Bertrand Flanet<br>
+E-mail: bertrand.flanet@gmail.com<br>
 linkedIn: https://www.linkedin.com/in/bertrand-flanet-67b1b2299/
