@@ -1,7 +1,5 @@
 ![TravelTide](https://drive.google.com/uc?export=view&id=1KAPQTQxOPgKmgdPhCcyZ-0JzeArO4emD)
 
-# **TravelTide**
-## Segmentation_project
 
 ### **1 - Introduction**
 
