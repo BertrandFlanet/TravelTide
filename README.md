@@ -23,7 +23,7 @@ These perks helps us develop marketing strategies to better answer users' needs 
 - [7 - Results](#7---results)
 - [8 - Vizualisations](#8---vizualisations)
 - [9 - Conclusions](#9---conclusions)
-- [10 - Aknowledgment](#10---aknowledgement)
+- [10 - Acknowledgement](#10---acknowledgement)
 - [11 - Contact](#11---contact)
 
 
