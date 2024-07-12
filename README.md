@@ -1,5 +1,5 @@
-# TravelTide
-Segmentation_project
+# **TravelTide**
+##Segmentation_project
 
 ### **1 - Introduction**
 
@@ -10,7 +10,7 @@ By categorizing users into segments based on behavior inferences, we are able to
 These perks helps us develop marketing strategies to better answer users' needs and interests.
 
 
-**2 - Table of Contents**
+### **2 - Table of Contents**
 
 - Introduction
 - Usage
@@ -23,7 +23,7 @@ These perks helps us develop marketing strategies to better answer users' needs 
 - Contact
 
 
-**3 - Usage**
+### **3 - Usage**
 
  .ipynb:
 Google Colab: Upload directly via the "File" menu or open from Google Drive
@@ -33,14 +33,14 @@ Jupyter Notebook: Install Jupyter, start it via terminal, and open the .ipynb fi
 Open with Tableau - Tableau Public installation - https://public.tableau.com/
 
 
-**4 - Project Structure**
+### **4 - Project Structure**
 
 - `data/`: Reference to dataset and used aggregated dataset at various granularity level
 - `notebooks/`: Jupyter notebooks with the analysis/segmentation code
 - `results/`: Output files, results, project report, .ppt presentation
 - `README.md`: Project documentation
 
-**5 - Data**
+### **5 - Data**
 TravelTide dataset cannot be shared for privacy reasons.
 Although, we can share its structure:
 - `flights`
@@ -329,7 +329,7 @@ Preprocessing
 Imputing 0 for Nan
 
 
-**6 - Analysis**
+### **6 - Analysis**
 
 The analysis was conducted in the following steps:
 1. **Exploratory Data Analysis (EDA)**: Identified key patterns and trends in the data.
@@ -340,7 +340,7 @@ The analysis was conducted in the following steps:
 3. **Extra: Clustering**: Applied K-Means clustering to segment customers into distinct groups.
 
 
-**7 - Results**
+### **7 - Results**
 
 RFM segmentation:
 `'lost'` : 'Conduct surveys or feedback sessions to understand why they stopped purchasing and address any concerns.',
@@ -387,13 +387,13 @@ Although, these weren't deemed substantial to be considered.
 Nota: it will be sensical to run more experiment with this model if time allows.
 
 
-**8 - Visualizations**
+### **8 - Visualizations**
 
 Tableau files and visualizations located in:
 `results/`
 
 
-**9 - Conclusions**
+### **9 - Conclusions**
 
 We believe that the proposed system offers solid inferences for our users behavior, as well as complementary intel upon our users health through RFM.
 It still requires testing as we need to make sure that the perks we associated with each group correspond to their needs and will translate into a growing activity.
@@ -412,11 +412,11 @@ Seasonality: extremely low count of trip recorded in Autumn.
 It is likely due to the threshold we have set for our segmentation, but nonetheless, the figures look concerningly low. This could be another area for improvement.
 
 
-**10 - Acknowledgment**
+### **10 - Acknowledgment**
 
 Project made within the frame of Masterschool bootcamp - 07/2024.
 
-**11 - Contact**
+### **11 - Contact**
 
 Bertrand Flanet
 E-mail: bertrand.flanet@gmail.com
