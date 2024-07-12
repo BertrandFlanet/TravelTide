@@ -3,7 +3,7 @@
 # **TravelTide**
 ## Segmentation_project
 
-### **Introduction**
+### **1 - Introduction**
 
 The main aim of this project is to segment TravelTide user base.
 TravelTide is a - fictitious - travelling company that provides an easy-of-use service to book hotel and flight.
@@ -14,8 +14,8 @@ These perks helps us develop marketing strategies to better answer users' needs 
 
 ### **2 - Table of Contents**
 
-- [Introduction](#introduction)
-- [Usage](#usage)
+- [1 - Introduction](#1---introduction)
+- [2 - Usage](#2---usage)
 - Data[]
 - Analysis
 - Results
@@ -25,7 +25,7 @@ These perks helps us develop marketing strategies to better answer users' needs 
 - Contact
 
 
-### **Usage**
+### **3 - Usage**
 
  .ipynb:
 Google Colab: Upload directly via the "File" menu or open from Google Drive
