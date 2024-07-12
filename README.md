@@ -127,7 +127,8 @@ Feature engineering:<br>
 <br>
 Aggregation at user level: **users_base_v2.csv**<br>
 Feature engineering:<br>
-<br>
+
+
 TIME:
 - Time diff sign_up_date / first_session_start (hour) - t1
 - Average trip duration (hour) - from departure to return - t2
@@ -327,7 +328,6 @@ SEASONALITY (by season and month):
 	- t161
 
 
-<br>
 Final segmentation, labels and perks : **TD_segmentation_final.csv**<br>
 Preprocessing:<br>
 Imputing 0 for Nan<br>
@@ -335,60 +335,60 @@ Imputing 0 for Nan<br>
 
 ### **6 - Analysis**
 
-The analysis was conducted in the following steps:
-1. **Exploratory Data Analysis (EDA)**: Identified key patterns and trends in the data.
-2. **Feature Engineering**: Created new features to facilitate definition of thresholds and metrics
-3. **RFM**: Conducted a Recency, Frequency, Monetary segmenting
-4. **Segmentation by branching**: Conducted a segmentation with a branching method
-5. **Perks**: Attributed perks to each generated groups
-3. **Extra: Clustering**: Applied K-Means clustering to segment customers into distinct groups.
+The analysis was conducted in the following steps:<br>
+1. **Exploratory Data Analysis (EDA)**: Identified key patterns and trends in the data.<br>
+2. **Feature Engineering**: Created new features to facilitate definition of thresholds and metrics<br>
+3. **RFM**: Conducted a Recency, Frequency, Monetary segmenting<br>
+4. **Segmentation by branching**: Conducted a segmentation with a branching method<br>
+5. **Perks**: Attributed perks to each generated groups<br>
+3. **Extra: Clustering**: Applied K-Means clustering to segment customers into distinct groups.<br>
 
 
 ### **7 - Results**
 
-RFM segmentation:
-`'lost'` : 'Conduct surveys or feedback sessions to understand why they stopped purchasing and address any concerns.',
-`'hibernating'` : 'Reach out with personalized win-back offers or discounts to encourage them to return.',
-`'loyal_customers'`: 'Exclusive loyalty rewards such as early access to new products, VIP events, or special discounts.',
-`'at_risk'`: 'Implement targeted re-engagement campaigns to remind them of your value proposition.',
-`'potential_loyalists'`: 'Provide personalized incentives to make the leap to loyal customer status, such as double loyalty points or exclusive previews.',
-`'about_to_sleep'`: 'Offer loyalty rewards or VIP programs to further incentivize their frequent purchases. ',
-`'one timer'`: 'Implement an onboarding email series to introduce them to your products/services.',
-`'cant_lose'`: 'Provide exclusive offers or early access to new products/services to maintain their engagement.',
-`'champions'`: 'Encourage them to become brand advocates by offering referral bonuses or social media shoutouts.',
-`'promising'`: 'Offer incentives for increasing their frequency of purchases, such as referral bonuses or points-based rewards.',
-`'need_attention'`: 'Provide targeted offers or personalized customer service interactions to address any issues and encourage further purchases.',
+RFM segmentation:<br>
+`'lost'` : 'Conduct surveys or feedback sessions to understand why they stopped purchasing and address any concerns.'<br>
+`'hibernating'` : 'Reach out with personalized win-back offers or discounts to encourage them to return.'<br>
+`'loyal_customers'`: 'Exclusive loyalty rewards such as early access to new products, VIP events, or special discounts.'<br>
+`'at_risk'`: 'Implement targeted re-engagement campaigns to remind them of your value proposition.'<br>
+`'potential_loyalists'`: 'Provide personalized incentives to make the leap to loyal customer status, such as double loyalty points or exclusive previews.'<br>
+`'about_to_sleep'`: 'Offer loyalty rewards or VIP programs to further incentivize their frequent purchases. '<br>
+`'one timer'`: 'Implement an onboarding email series to introduce them to your products/services.'<br>
+`'cant_lose'`: 'Provide exclusive offers or early access to new products/services to maintain their engagement.'<br>
+`'champions'`: 'Encourage them to become brand advocates by offering referral bonuses or social media shoutouts.'<br>
+`'promising'`: 'Offer incentives for increasing their frequency of purchases, such as referral bonuses or points-based rewards.'<br>
+`'need_attention'`: 'Provide targeted offers or personalized customer service interactions to address any issues and encourage further purchases.'<br>
 `'new_customers'`: 'Welcome them with a special discount or promotion for their next purchase.'})
 
 
 Branching segmentation:
 User's behaviour segmentation labels and perks:
 
-Multi Traveler                  - `Lambda Traveller` - Last-Minute Deals
-Multi Solo Business Short       - `Business expeditive` (short trip) - Partnership discounts for companies that book frequently.
-Multi Solo Business Long        - `Business expansive` (long trip) - Reduced rates for long-term hotel stays.
-Multi Solo Adventurer Short     - `Solo Casual Traveller` (short trip) - Short trip packages for popular destinations.
-Multi Solo Adventurer Long      - `Solo Adventurer` (long trip) - Packages with activities like hiking, diving, and cultural tours.
-Multi Group Family Short        - `Familly Excursion` (familly short trip) - Reduced rates for accommodation, meals, and activities.
-Multi Group Family Long         - `Familly Adventure` (familly long trip) - Packages with activities such as safaris, theme parks, and outdoor adventures.
-Multi Group Separate Short      - `Friend Relaxer` (friends short trip) - Discounts for bookings on short stays.
-Multi Group Separate Long       - `Friend Explorer` (friends long trip) - Reduced rates for extended stays.
-Multi Group Unite Long          - `Intimate Odysseus` (possible couple or close friends long trip) - Packages with activities like wine tastings, city tours, and spa treatments.
-Multi Group Unite Short         - `Intimate Escapade` (possible couple or close friends short trip) - Special rates on short stays.
-inactive hopeful                - `inactive fluid` (users who are active on the website but never complied to a trip) - Personalized travel recommendations and discounts to encourage booking.
-inactive hopeless               - `inactive frozen` (users who are inactive for a long time) - Automatic enrollment in a loyalty program with immediate benefits to encourage re-engagement.
-Unique Traveler                  - `Hapax Traveller` - Offer discounts or rewards for referring friends or family to book trips.
-Unique Solo Adventurer Short     - `Solo Tempted Traveller` (short trip) - Exclusive weekend getaway offers for returning customers.
-Unique Solo Adventurer Long      - `Solo Curious Adventurer` (long trip) - Discounts on long trips to adventurous destinations for repeat customers.
-Unique Group Family Long         - `Familly Mousy Adventure` (familly long trip) - Free baggage.
-Unique Group Separate Long       - `Friend Future Explorer` (friends long trip) - Reduced rates on trips for repeat bookings.
-Unique Group Unite Short         - `Intimate Aluring Escapade` (possible couple or close friends short trip) - Discounts on spa retreats, dinners.
+Multi Traveler                  - `Lambda Traveller` - Last-Minute Deals.<br>
+Multi Solo Business Short       - `Business expeditive` (short trip) - Partnership discounts for companies that book frequently.<br>
+Multi Solo Business Long        - `Business expansive` (long trip) - Reduced rates for long-term hotel stays.<br>
+Multi Solo Adventurer Short     - `Solo Casual Traveller` (short trip) - Short trip packages for popular destinations.<br>
+Multi Solo Adventurer Long      - `Solo Adventurer` (long trip) - Packages with activities like hiking, diving, and cultural tours.<br>
+Multi Group Family Short        - `Familly Excursion` (familly short trip) - Reduced rates for accommodation, meals, and activities.<br>
+Multi Group Family Long         - `Familly Adventure` (familly long trip) - Packages with activities such as safaris, theme parks, and outdoor adventures.<br>
+Multi Group Separate Short      - `Friend Relaxer` (friends short trip) - Discounts for bookings on short stays.<br>
+Multi Group Separate Long       - `Friend Explorer` (friends long trip) - Reduced rates for extended stays.<br>
+Multi Group Unite Long          - `Intimate Odysseus` (possible couple or close friends long trip) - Packages with activities like wine tastings, city tours, and spa treatments.<br>
+Multi Group Unite Short         - `Intimate Escapade` (possible couple or close friends short trip) - Special rates on short stays.<br>
+inactive hopeful                - `inactive fluid` (users who are active on the website but never complied to a trip) - Personalized travel recommendations and discounts to encourage booking.<br>
+inactive hopeless               - `inactive frozen` (users who are inactive for a long time) - Automatic enrollment in a loyalty program with immediate benefits to encourage re-engagement.<br>
+Unique Traveler                  - `Hapax Traveller` - Offer discounts or rewards for referring friends or family to book trips.<br>
+Unique Solo Adventurer Short     - `Solo Tempted Traveller` (short trip) - Exclusive weekend getaway offers for returning customers.<br>
+Unique Solo Adventurer Long      - `Solo Curious Adventurer` (long trip) - Discounts on long trips to adventurous destinations for repeat customers.<br>
+Unique Group Family Long         - `Familly Mousy Adventure` (familly long trip) - Free baggage.<br>
+Unique Group Separate Long       - `Friend Future Explorer` (friends long trip) - Reduced rates on trips for repeat bookings.<br>
+Unique Group Unite Short         - `Intimate Aluring Escapade` (possible couple or close friends short trip) - Discounts on spa retreats, dinners.<br>
 
 
-Clustering with K-Means:
-Did provide some results, segmenting users into 3 or 4 groups.
-Although, these weren't deemed substantial to be considered.
-Nota: it will be sensical to run more experiment with this model if time allows.
+Clustering with K-Means:<br>
+Did provide some results, segmenting users into 3 or 4 groups.<br>
+Although, these weren't deemed substantial to be considered.<br>
+Nota: it will be sensical to run more experiment with this model if time allows.<br>
 
 
 ### **8 - Visualizations**
