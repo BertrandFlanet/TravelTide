@@ -53,50 +53,50 @@ Although, we can share its structure:
 	. trip_id<br>
 	. origin_airport<br>
 	. destination<br>
-	. destination_airport
-	. seats
-	. return_flight_booked
-	. departure_time
-	. return_time
-	. checked_bags
-	. trip_airline
-	. destination_airport_lat
-	. destination_airport_lon
-	. base_fare_usd
+	. destination_airport<br>
+	. seats<br>
+	. return_flight_booked<br>
+	. departure_time<br>
+	. return_time<br>
+	. checked_bags<br>
+	. trip_airline<br>
+	. destination_airport_lat<br>
+	. destination_airport_lon<br>
+	. base_fare_usd<br>
 - `hotels`
-	. trip_id
-	. hotel_name
-	. nights
-	. rooms
-	. check_in_time
-	. check_out_time
-	. hotel_per_room_usd
+	. trip_id<br>
+	. hotel_name<br>
+	. nights<br>
+	. rooms<br>
+	. check_in_time<br>
+	. check_out_time<br>
+	. hotel_per_room_usd<br>
 - `sessions`
-	. session_id
-	. user_id
-	. trip_id
-	. session_start
-	. session_end
-	. flight_discount
-	. hotel_discount
-	. flight_discount_amount
-	. hotel_discount_amount
-	. flight_booked
-	. hotel_booked
-	. page_clicks
-	. cancellation
+	. session_id<br>
+	. user_id<br>
+	. trip_id<br>
+	. session_start<br>
+	. session_end<br>
+	. flight_discount<br>
+	. hotel_discount<br>
+	. flight_discount_amount<br>
+	. hotel_discount_amount<br>
+	. flight_booked<br>
+	. hotel_booked<br>
+	. page_clicks<br>
+	. cancellation<br>
 - `users`
-	. user_id
-	. birthdate
-	. gender
-	. married
-	. has_children
-	. home_country
-	. home_city
-	. home_airport
-	. home_airport_lat
-	. home_airport_lon
-	. sign_up_date
+	. user_id<br>
+	. birthdate<br>
+	. gender<br>
+	. married<br>
+	. has_children<br>
+	. home_country<br>
+	. home_city<br>
+	. home_airport<br>
+	. home_airport_lat<br>
+	. home_airport_lon<br>
+	. sign_up_date<br>
 
 
 [df_base_sessions.csv]
