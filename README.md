@@ -32,7 +32,7 @@ These perks helps us develop marketing strategies to better answer users' needs 
 ### **3 - Usage**
 
  .ipynb:
-Google Colab: Upload directly via the "File" menu or open from Google Drive
+Google Colab: Upload directly via the "File" menu or open from Google Drive<br>
 Jupyter Notebook: Install Jupyter, start it via terminal, and open the .ipynb file through the interface
 
  .twb:
@@ -99,37 +99,35 @@ Although, we can share its structure:
 	. sign_up_date<br>
 
 
-[df_base_sessions.csv]
-Aggregation at session level.
-Preprocessing:
-- Filtering by date: > 2023-01-04
-- Filtering by threshold: users who had at least 7 sessions
-- Removing duplicate trip references
-- Imputing 0 to users who have a negative count of night stays
-- Imputing difference between departure and return times for users who completed trip, had a hotel booked but a count of night stay of 0
+Aggregation at session level : **df_base_sessions.csv**<br>
+<br>
+Preprocessing:<br>
+- Filtering by date: > 2023-01-04<br>
+- Filtering by threshold: users who had at least 7 sessions<br>
+- Removing duplicate trip references<br>
+- Imputing 0 to users who have a negative count of night stays<br>
+- Imputing difference between departure and return times for users who completed trip, had a hotel booked but a count of night stay of 0<br>
 
-Feature engineering:
-- Creation of metrics for defining thresholds to segment users
-. Age
-. Month
-. Distance
-. domestic/international
-. Spending per trip w/o_discount if not cancelled - total_spent_w/o_discount_not_cancelled
-. Spending per trip w/o_discount if cancelled - total_spent_w/o_discount_cancelled
-. Spending per trip with discount if not cancelled - total_spent_discount_not_cancelled
-. Spending for hotel w/o_discount if not cancelled - hotel_total_w/o_discount_not_cancelled
-. Spending for hotel w/o_discount if cancelled - hotel_total_w/o_discount_cancelled
-. Spending for hotel with discount if not cancelled - hotel_total_discount_not_cancelled
-. Time diff from end session and departure time(hours)
-. Trip duration(hours)
-. Session duration (minutes)
-. Time between one session and another
-
-
-[users_base_v2.csv]
-Aggregation at user level:
-Feature engineering:
-
+Feature engineering:<br>
+- Creation of metrics for defining thresholds to segment users<br>
+. Age<br>
+. Month<br>
+. Distance<br>
+. domestic/international<br>
+. Spending per trip w/o_discount if not cancelled - total_spent_w/o_discount_not_cancelled<br>
+. Spending per trip w/o_discount if cancelled - total_spent_w/o_discount_cancelled<br>
+. Spending per trip with discount if not cancelled - total_spent_discount_not_cancelled<br>
+. Spending for hotel w/o_discount if not cancelled - hotel_total_w/o_discount_not_cancelled<br>
+. Spending for hotel w/o_discount if cancelled - hotel_total_w/o_discount_cancelled<br>
+. Spending for hotel with discount if not cancelled - hotel_total_discount_not_cancelled<br>
+. Time diff from end session and departure time(hours)<br>
+. Trip duration(hours)<br>
+. Session duration (minutes)<br>
+. Time between one session and another<br>
+<br>
+Aggregation at user level: **users_base_v2.csv**<br>
+Feature engineering:<br>
+<br>
 TIME:
 - Time diff sign_up_date / first_session_start (hour) - t1
 - Average trip duration (hour) - from departure to return - t2
@@ -329,10 +327,10 @@ SEASONALITY (by season and month):
 	- t161
 
 
-[TD_segmentation_final.csv]
-Final segmentation, labels and perks
-Preprocessing
-Imputing 0 for Nan
+<br>
+Final segmentation, labels and perks : **TD_segmentation_final.csv**<br>
+Preprocessing:<br>
+Imputing 0 for Nan<br>
 
 
 ### **6 - Analysis**
