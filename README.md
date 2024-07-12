@@ -49,7 +49,7 @@ Open with Tableau - Tableau Public installation - https://public.tableau.com/
 ### **5 - Data**
 TravelTide dataset cannot be shared for privacy reasons.
 Although, we can share its structure:
-- `flights`
+- `flights`<br>
 	. trip_id<br>
 	. origin_airport<br>
 	. destination<br>
@@ -63,7 +63,7 @@ Although, we can share its structure:
 	. destination_airport_lat<br>
 	. destination_airport_lon<br>
 	. base_fare_usd<br>
-- `hotels`
+- `hotels`<br>
 	. trip_id<br>
 	. hotel_name<br>
 	. nights<br>
@@ -71,7 +71,7 @@ Although, we can share its structure:
 	. check_in_time<br>
 	. check_out_time<br>
 	. hotel_per_room_usd<br>
-- `sessions`
+- `sessions`<br>
 	. session_id<br>
 	. user_id<br>
 	. trip_id<br>
@@ -85,7 +85,7 @@ Although, we can share its structure:
 	. hotel_booked<br>
 	. page_clicks<br>
 	. cancellation<br>
-- `users`
+- `users`<br>
 	. user_id<br>
 	. birthdate<br>
 	. gender<br>
