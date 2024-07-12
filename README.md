@@ -8,6 +8,8 @@
 The main aim of this project is to segment TravelTide user base.
 TravelTide is a - fictitious - travelling company that provides an easy-of-use service to book hotel and flight.
 In this project, TravelTide user base is composed of USA and Canada citizens.
+We conducted two users segmentation, following an RFM and a branching logic.
+Additionally we ran a clustering using K-means.
 By categorizing users into segments based on behavior inferences, we are able to design perks to attribute to each of the generated groups.
 These perks helps us develop marketing strategies to better answer users' needs and interests.
 
