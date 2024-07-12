@@ -18,7 +18,7 @@ These perks helps us develop marketing strategies to better answer users' needs 
 - [2 - Table of Contents](#2---table-of-contents)
 - [3 - Usage](#3---usage)
 - [4 - Project Structure](#4project-structure)
-- [5 - Data](#4---data)
+- [5 - Data](#5---data)
 - [6 - Analysis](#6---analysis)
 - [7 - Results](#7---results)
 - [8 - Vizualisations](#8---vizualisations)
