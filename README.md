@@ -1,7 +1,7 @@
 # TravelTide
 Segmentation_project
 
-**1 - Introduction**
+## **1 - Introduction**
 
 The main aim of this project is to segment TravelTide user base.
 TravelTide is a - fictitious - travelling company that provides an easy-of-use service to book hotel and flight.
