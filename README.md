@@ -50,9 +50,9 @@ Open with Tableau - Tableau Public installation - https://public.tableau.com/
 TravelTide dataset cannot be shared for privacy reasons.
 Although, we can share its structure:
 - `flights`
-	. trip_id
-	. origin_airport
-	. destination
+	. trip_id<br>
+	. origin_airport<br>
+	. destination<br>
 	. destination_airport
 	. seats
 	. return_flight_booked
