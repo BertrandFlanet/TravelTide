@@ -40,7 +40,7 @@ Open with Tableau - Tableau Public installation - https://public.tableau.com/
 ### **4 - Project Structure**
 TravelTide/<br>
 │<br>
-├── data/: # Reference to dataset and used aggregated dataset at various granularity level<br>
+├── `data/`: # Reference to dataset and used aggregated dataset at various granularity level<br>
 │   ├── df_base_sessions.csv<br>
 │   ├── TD_segmentation_final.csv<br>
 |   └── users_base_v2.csv<br>
@@ -69,6 +69,14 @@ TravelTide/<br>
 │   └── TT_presentation.pdf<br>
 │<br>
 └── README.md<br>
+
+ .
+    ├── ...
+    ├── test                    # Test files (alternatively `spec` or `tests`)
+    │   ├── benchmarks          # Load and stress tests
+    │   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
+    │   └── unit                # Unit tests
+    └── ...
 
 ### **5 - Data**
 TravelTide dataset cannot be shared for privacy reasons.
