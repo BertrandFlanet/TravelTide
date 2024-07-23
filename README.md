@@ -41,15 +41,15 @@ Open with Tableau - Tableau Public installation - https://public.tableau.com/
 ```
 TravelTide/
 │
-├── `data/`: # Reference to dataset and used aggregated dataset at various granularity level
+├── data/: # Reference to dataset and used aggregated dataset at various granularity level
 │   ├── df_base_sessions.csv
 │   ├── TD_segmentation_final.csv
 |   └── users_base_v2.csv
 │
-├── `notebooks/`: # Jupyter notebooks with the analysis/segmentation code
+├── notebooks/: # Jupyter notebooks with the analysis/segmentation code
 │   └── TravelTide_Seg_final.ipynb
 │
-├── `results/`: # Output files, results, project report, .ppt presentation
+├── results/: # Output files, results, project report, .ppt presentation
 │   ├── TravelTide_EDA.twb
 │   ├── TT_Segmentation_viz.twb
 │   ├── Count_trip_month.png
