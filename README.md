@@ -40,7 +40,7 @@ Open with Tableau - Tableau Public installation - https://public.tableau.com/
 ### **4 - Project Structure**
 TravelTide/<br>
 │<br>
-├── `data/`: # Reference to dataset and used aggregated dataset at various granularity level<br>
+├── data/: # Reference to dataset and used aggregated dataset at various granularity level<br>
 │   ├── df_base_sessions.csv<br>
 │   ├── TD_segmentation_final.csv<br>
 |   └── users_base_v2.csv<br>
