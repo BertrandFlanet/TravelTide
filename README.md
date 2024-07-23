@@ -70,11 +70,6 @@ TravelTide/<br>
 │<br>
 └── README.md<br>
 
-- `data/`: Reference to dataset and used aggregated dataset at various granularity level
-- `notebooks/`: Jupyter notebooks with the analysis/segmentation code
-- `results/`: Output files, results, project report, .ppt presentation
-- `README.md`: Project documentation
-
 ### **5 - Data**
 TravelTide dataset cannot be shared for privacy reasons.
 Although, we can share its structure:
