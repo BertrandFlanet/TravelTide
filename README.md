@@ -21,7 +21,7 @@ These perks helps us develop marketing strategies to better answer users' needs 
 - [5 - Data](#5---data)
 - [6 - Analysis](#6---analysis)
 - [7 - Results](#7---results)
-- [8 - Vizualisations](#8---vizualisations)
+- [8 - Visualizations](#8---visualizations)
 - [9 - Conclusions](#9---conclusions)
 - [10 - Acknowledgement](#10---acknowledgement)
 - [11 - Contact](#11---contact)
@@ -38,38 +38,39 @@ Open with Tableau - Tableau Public installation - https://public.tableau.com/
 
 
 ### **4 - Project Structure**
-TravelTide/<br>
-│<br>
-├── `data/`: # Reference to dataset and used aggregated dataset at various granularity level<br>
-│   ├── df_base_sessions.csv<br>
-│   ├── TD_segmentation_final.csv<br>
-|   └── users_base_v2.csv<br>
-│<br>
-├── `notebooks/`: # Jupyter notebooks with the analysis/segmentation code<br>
-│   └── TravelTide_Seg_final.ipynb<br>
-│<br>
-├── `results/`: # Output files, results, project report, .ppt presentation<br>
-│   ├── TravelTide_EDA.twb<br>
-│   ├── TT_Segmentation_viz.twb<br>
-│   ├── Count_trip_month.png<br>
-│   ├── Discount_usage_distribution.png<br>
-│   ├── Domestic-International Distribution.png<br>
-│   ├── Domestic-International.png<br>
-│   ├── Gender_ratio.png<br>
-│   ├── Only hotel-flight.png<br>
-│   ├── Season_num_of_trips.png<br>
-│   ├── Season_users_distribution.png<br>
-│   ├── segment multi.png<br>
-│   ├── segment none.png<br>
-│   ├── segment unique.png<br>
-│   ├── Users_Behaviour_distribution_selection.png<br>
-│   ├── Users_Behaviour_distribution.png<br>
-│   ├── Users_RFM_distribution.png<br>
-│   ├── TravelTide_Report.pdf<br>
-│   └── TT_presentation.pdf<br>
-│<br>
-└── README.md<br>
-
+```
+TravelTide/
+│
+├── `data/`: # Reference to dataset and used aggregated dataset at various granularity level
+│   ├── df_base_sessions.csv
+│   ├── TD_segmentation_final.csv
+|   └── users_base_v2.csv
+│
+├── `notebooks/`: # Jupyter notebooks with the analysis/segmentation code
+│   └── TravelTide_Seg_final.ipynb
+│
+├── `results/`: # Output files, results, project report, .ppt presentation
+│   ├── TravelTide_EDA.twb
+│   ├── TT_Segmentation_viz.twb
+│   ├── Count_trip_month.png
+│   ├── Discount_usage_distribution.png
+│   ├── Domestic-International Distribution.png
+│   ├── Domestic-International.png
+│   ├── Gender_ratio.png
+│   ├── Only hotel-flight.png
+│   ├── Season_num_of_trips.png
+│   ├── Season_users_distribution.png
+│   ├── segment multi.png
+│   ├── segment none.png
+│   ├── segment unique.png
+│   ├── Users_Behaviour_distribution_selection.png
+│   ├── Users_Behaviour_distribution.png
+│   ├── Users_RFM_distribution.png
+│   ├── TravelTide_Report.pdf
+│   └── TT_presentation.pdf
+│
+└── README.md
+```
 ### **5 - Data**
 TravelTide dataset cannot be shared for privacy reasons.
 Although, we can share its structure:
