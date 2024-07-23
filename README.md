@@ -70,14 +70,6 @@ TravelTide/<br>
 │<br>
 └── README.md<br>
 
- .
-    ├── ...
-    ├── test                    # Test files (alternatively `spec` or `tests`)
-    │   ├── benchmarks          # Load and stress tests
-    │   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
-    │   └── unit                # Unit tests
-    └── ...
-
 ### **5 - Data**
 TravelTide dataset cannot be shared for privacy reasons.
 Although, we can share its structure:
