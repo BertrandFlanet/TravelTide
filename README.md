@@ -33,14 +33,14 @@ These perks helps us develop marketing strategies to better answer users' needs 
 Google Colab: Upload directly via the "File" menu or open from Google Drive<br>
 Jupyter Notebook: Install Jupyter, start it via terminal, and open the .ipynb file through the interface
 
-. python:
-	- pandas
-	- numpy
-	- matplotlib
-	- seaborn
-	- sqlalchemy
-	- math
-	- sklearn
+. python:<br>
+	- pandas<br>
+	- numpy<br>
+	- matplotlib<br>
+	- seaborn<br>
+	- sqlalchemy<br>
+	- math<br>
+	- sklearn<br>
 
  .twb:
 Open with Tableau - Tableau Public installation - https://public.tableau.com/
