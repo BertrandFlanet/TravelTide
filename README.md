@@ -33,6 +33,15 @@ These perks helps us develop marketing strategies to better answer users' needs 
 Google Colab: Upload directly via the "File" menu or open from Google Drive<br>
 Jupyter Notebook: Install Jupyter, start it via terminal, and open the .ipynb file through the interface
 
+. python:
+	- pandas
+	- numpy
+	- matplotlib
+	- seaborn
+	- sqlalchemy
+	- math
+	- sklearn
+
  .twb:
 Open with Tableau - Tableau Public installation - https://public.tableau.com/
 
@@ -65,6 +74,7 @@ TravelTide/
 │   ├── segment unique.png
 │   ├── Users_Behaviour_distribution_selection.png
 │   ├── Users_Behaviour_distribution.png
+│   ├── User_level_distribution.png
 │   ├── Users_RFM_distribution.png
 │   ├── TravelTide_Report.pdf
 │   └── TT_presentation.pdf
